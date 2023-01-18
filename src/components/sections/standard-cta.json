@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_standard_ctas",
+  "info": {
+    "displayName": "Standard CTA"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

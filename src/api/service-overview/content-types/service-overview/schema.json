@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_overviews",
+  "info": {
+    "singularName": "service-overview",
+    "pluralName": "service-overviews",
+    "displayName": "Service Overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.advanced-cta",
+        "sections.blogs",
+        "sections.content-with-image",
+        "sections.grey-content-with-image",
+        "sections.icons",
+        "sections.services",
+        "sections.standard-cta"
+      ]
+    }
+  }
+}

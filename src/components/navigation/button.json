@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_navigation_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "OpenInNewTab": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "Gold",
+        "Blue",
+        "White"
+      ],
+      "default": "Gold",
+      "required": false
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

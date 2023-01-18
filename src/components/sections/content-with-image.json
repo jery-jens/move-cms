@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_sections_content_with_images",
+  "info": {
+    "displayName": "Content with image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Appointment": {
+      "type": "boolean",
+      "default": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Direction": {
+      "type": "enumeration",
+      "enum": [
+        "Image first",
+        "Image last"
+      ],
+      "default": "Image first",
+      "required": true
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}

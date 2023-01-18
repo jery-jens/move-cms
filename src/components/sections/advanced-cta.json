@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_advanced_ctas",
+  "info": {
+    "displayName": "Advanced CTA"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

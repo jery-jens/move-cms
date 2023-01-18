@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blog_quotes",
+  "info": {
+    "displayName": "Quote"
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "string"
+    },
+    "AuthorName": {
+      "type": "string"
+    },
+    "AuthorAvatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

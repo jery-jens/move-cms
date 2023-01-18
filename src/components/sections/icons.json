@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_icons",
+  "info": {
+    "displayName": "Icons"
+  },
+  "options": {},
+  "attributes": {
+    "Icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icon"
+    }
+  }
+}

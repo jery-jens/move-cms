@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_navigation_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "OpenInNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

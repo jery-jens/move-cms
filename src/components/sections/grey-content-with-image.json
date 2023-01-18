@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_grey_content_with_images",
+  "info": {
+    "displayName": "Grey content with image"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "text",
+      "required": true
+    },
+    "Appointment": {
+      "type": "boolean",
+      "default": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Direction": {
+      "type": "enumeration",
+      "enum": [
+        "Image first",
+        "Image last"
+      ],
+      "default": "Image first",
+      "required": true
+    }
+  }
+}
