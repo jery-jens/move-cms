@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: move
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
@@ -8,7 +8,7 @@ services:
     healthCheckPath: /_health
     autoDeploy: false
     disk:
-      name: strapi-data
+      name: move-data
       mountPath: /data
       sizeGB: 1
     envVars:
@@ -17,7 +17,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_FILENAME
-        value: /data/strapi.db
+        value: /data/move.db
       - key: JWT_SECRET
         generateValue: true
       - key: ADMIN_JWT_SECRET
