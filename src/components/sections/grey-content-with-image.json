@@ -34,19 +34,6 @@
       ],
       "default": "Image first",
       "required": true
-    },
-    "Download": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "DownloadLabel": {
-      "type": "string"
     }
   }
 }

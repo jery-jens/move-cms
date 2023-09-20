@@ -41,6 +41,19 @@
     },
     "Text": {
       "type": "richtext"
+    },
+    "DownloadLabel": {
+      "type": "string"
+    },
+    "DownloadFile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
