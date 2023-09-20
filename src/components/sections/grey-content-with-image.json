@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_grey_content_with_images",
   "info": {
-    "displayName": "Grey content with image"
+    "displayName": "Grey content with image",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,12 +19,12 @@
       "default": true
     },
     "Image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Direction": {
       "type": "enumeration",
@@ -33,6 +34,19 @@
       ],
       "default": "Image first",
       "required": true
+    },
+    "Download": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "DownloadLabel": {
+      "type": "string"
     }
   }
 }
