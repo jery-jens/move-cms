@@ -34,6 +34,9 @@
       ],
       "default": "Image first",
       "required": true
+    },
+    "RichText": {
+      "type": "richtext"
     }
   }
 }

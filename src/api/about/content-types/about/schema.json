@@ -41,6 +41,9 @@
         "sections.services",
         "sections.standard-cta"
       ]
+    },
+    "RichText": {
+      "type": "richtext"
     }
   }
 }
