@@ -30,6 +30,13 @@
         "sections.content-with-image",
         "sections.standard-cta"
       ]
+    },
+    "Picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
