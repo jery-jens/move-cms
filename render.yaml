@@ -3,8 +3,8 @@ services:
     name: move
     env: node
     plan: starter
-    buildCommand: yarn install --ignore-engines && yarn build --ignore-engines
-    startCommand: rsync -a public/ /data/public/ && yarn start --ignore-engines
+    buildCommand: yarn install && yarn build
+    startCommand: rsync -a public/ /data/public/ && yarn start
     healthCheckPath: /_health
     autoDeploy: false
     disk:
@@ -12,8 +12,6 @@ services:
       mountPath: /data
       sizeGB: 1
     envVars:
-      - key: YARN_IGNORE_ENGINES
-        value: "true"
       - key: NODE_VERSION
         value: 20.11.0
       - key: NODE_ENV
