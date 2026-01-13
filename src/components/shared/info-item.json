@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_info_items",
+  "info": {
+    "displayName": "Info Item",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "allowedTypes": ["images"],
+      "multiple": false
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

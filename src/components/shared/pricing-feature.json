@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_pricing_features",
+  "info": {
+    "displayName": "Pricing Feature",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string",
+      "required": true
+    },
+    "IconType": {
+      "type": "enumeration",
+      "enum": ["check", "star", "chart", "calendar", "target"],
+      "default": "check"
+    }
+  }
+}

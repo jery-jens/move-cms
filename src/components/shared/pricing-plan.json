@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_pricing_plans",
+  "info": {
+    "displayName": "Pricing Plan",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string",
+      "required": true
+    },
+    "Unit": {
+      "type": "string",
+      "default": "pakket"
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.pricing-feature"
+    }
+  }
+}

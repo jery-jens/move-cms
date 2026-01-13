@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "lactaattest_pages",
+  "info": {
+    "singularName": "lactaattest-page",
+    "pluralName": "lactaattest-pages",
+    "displayName": "Lactaattest Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "HeroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "HeroSubtitle": {
+      "type": "text"
+    },
+    "PrimaryButtonLabel": {
+      "type": "string"
+    },
+    "PrimaryButtonUrl": {
+      "type": "string"
+    },
+    "SecondaryButtonLabel": {
+      "type": "string"
+    },
+    "SecondaryButtonUrl": {
+      "type": "string"
+    },
+    "InfoTitle": {
+      "type": "string"
+    },
+    "InfoSubtitle": {
+      "type": "string"
+    },
+    "InfoItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-item"
+    },
+    "InfoImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "PricingTitle": {
+      "type": "string"
+    },
+    "PricingSubtitle": {
+      "type": "string"
+    },
+    "PricingPlans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.pricing-plan"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial"
+    },
+    "CtaTitle": {
+      "type": "string"
+    },
+    "CtaSubtitle": {
+      "type": "string"
+    },
+    "CtaButtonLabel": {
+      "type": "string"
+    },
+    "CtaButtonUrl": {
+      "type": "string"
+    }
+  }
+}
