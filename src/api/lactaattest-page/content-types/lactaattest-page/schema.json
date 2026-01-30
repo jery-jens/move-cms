@@ -17,6 +17,11 @@
     "HeroSubtitle": {
       "type": "text"
     },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
     "PrimaryButtonLabel": {
       "type": "string"
     },
